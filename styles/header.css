@@ -1,0 +1,41 @@
+#start{
+    height: 652px;
+    background: url("./img/headerbg.jpg") no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    nav{
+        display: inline;
+        margin-top: 30px;
+
+        a{
+            display: inline;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .navWrapper{
+            margin: 0 10px;
+        }
+
+        .aboutUsLink{
+            color: green;
+            padding: 3px;
+            margin-right: 20px;
+            }
+
+        .langSwitcher{
+            color: #c7c7c7;
+            margin-right: 4px;
+        }
+
+    }
+
+    img{
+        width: 200px;
+        height: 90px;
+    }
+}
+
+

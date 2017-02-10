@@ -1,0 +1,47 @@
+#aboutUs{
+
+    h2, p{
+        text-align: center;
+    }
+
+    .h2green{
+        color: #578e30;
+        font-size: 16px;
+        letter-spacing: 7px;
+    }
+
+    .h2strong{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    article{
+        max-width: 900px;
+        display: flex;
+        flex-rtirection: row;
+        margin: 20px auto;
+
+
+        p{
+            text-align: start;
+            margin: 10px;
+            line-height: 1.5;
+
+            .redLetter{
+                font-size: 40px;
+            }
+
+            .pgreen{
+                color: #578e30;
+            }
+        }
+            ul li{
+                // list-style-type: none;
+                list-style: none outside;
+            }
+
+            ul li:before {
+            content: "-";
+        }
+    }
+}

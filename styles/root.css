@@ -1,0 +1,21 @@
+:root{
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+h2, h3{
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    border: 0;
+    margin: 5px auto;
+    background: url("./img/wave.svg");
+    height: 19px;
+    width: 71px;
+}

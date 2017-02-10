@@ -1,0 +1,37 @@
+#ourTeam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #f7f8fa;
+    height: 500px;
+
+    h2{
+            .h2green{
+            color: green;
+            font-size: 16px;
+            letter-spacing: 7px;
+        }
+
+        .h2strong{
+            font-size: 60px;
+            font-weight: bold;
+        }
+    }
+
+    p{
+        max-width: 50%;
+        margin: 0 auto 30px;
+    }
+
+    .linkGroup{
+        display: flex;
+        justify-content: space-around;
+        max-width: 70%;
+        margin: auto;
+
+        a{
+            margin: 40px;
+        }
+    }
+}
