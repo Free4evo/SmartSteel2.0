@@ -19,6 +19,7 @@
         max-width: 900px;
         display: flex;
         flex-rtirection: row;
+        flex-wrap: wrap-reverse;
         margin: 20px auto;
 
 
@@ -42,6 +43,10 @@
 
             ul li:before {
             content: "-";
+        }
+        
+        .aboutleft{
+            max-width: 60%;
         }
     }
 }

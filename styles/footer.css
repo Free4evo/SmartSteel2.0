@@ -26,7 +26,7 @@
         margin-bottom: 30px;
     }
 
-    img:hower{
+    img:hover{
         -moz-box-shadow: 0 0 4px #ccc;
         -webkit-box-shadow: 0 0 4px #ccc;
         box-shadow: 0 0 4px #ccc;
@@ -34,6 +34,7 @@
 
    .footerNav{
        display: flex;
+       flex-wrap: wrap;
        justify-content: space-around;
        margin: 60px auto 10px;
        
