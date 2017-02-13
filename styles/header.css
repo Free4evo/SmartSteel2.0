@@ -19,6 +19,10 @@
             margin: 0 10px;
         }
 
+        .mobWrapper{
+            display: none;
+        }
+
         .aboutUsLink{
             color: green;
             padding: 3px;

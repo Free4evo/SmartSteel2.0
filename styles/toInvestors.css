@@ -21,16 +21,12 @@
         flex-wrap: wrap;
         justify-content: space-between;
         max-width: 900px;
-        margin: 10px auto;
+        margin: 0 auto;
 
-        .flexleft{
+        .flexleft, .flexright{
             min-width: 320px;
-            max-width: 40%;
-        }
-
-        .flexright{
-            min-width: 320px;
-            max-width: 40%;
+            max-width: 400px;
+            margin: 10px;
         }
     }
 }

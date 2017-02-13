@@ -27,8 +27,9 @@
     .linkGroup{
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         max-width: 70%;
-        margin: auto;
+        margin: 0 auto;
 
         a{
             margin: 40px;

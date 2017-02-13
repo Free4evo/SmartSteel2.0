@@ -1,6 +1,6 @@
 {
     "name": "SmartSteel",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "free4evo project",
     "keywords":
     [
@@ -11,12 +11,12 @@
     ],
     "bugs":
     {
-        "url": "https://github.com/Free4evo/Smart-Steel/issues",
+        "url": "https://github.com/Free4evo/SmartSteel2.0/issues",
         "email": "liulia.oleg@gmail.com"
     },
     "license": "MIT",
     "author": "Oleg Liulia <liulia.oleg@gmail.com>",
-    "repository": "Free4evo/Smart-Steel",
+    "repository": "Free4evo/Smart-Steel2.0",
     "devDependencies":
     {
         "gulp": "^3.9.1",
